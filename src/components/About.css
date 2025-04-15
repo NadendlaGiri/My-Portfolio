@@ -1,0 +1,29 @@
+.about-section {
+  background: linear-gradient(145deg, #f8f9fa, #e2e6ea);
+  color: #333;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.about-img {
+  width: 100%;             /* Responsive width */
+  max-width: 250px;        /* Limit width */
+  height: 250px;           /* Set desired height */
+  object-fit: cover;       /* Ensures image fills container neatly */
+  margin: 0 auto;          /* Center the image */
+  display: block;
+  border-radius: 50px;      /* Optional rounded corners */
+}
+
+
+
+.about-card {
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}

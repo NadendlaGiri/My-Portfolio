@@ -1,12 +1,12 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import About from './components/About';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
-import Blog from './components/Blog';
-import Footer from './components/Footer';
+import React from "react";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Resume from "./components/Resume";
+import Contact from "./components/Contact";
+import Blog from "./components/Blog";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <Resume />
       <Blog />
       <Contact />
-      
+
       <Footer />
     </div>
   );

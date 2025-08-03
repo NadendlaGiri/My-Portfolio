@@ -1,7 +1,6 @@
-import React from 'react';
-import { Container } from 'react-bootstrap';
-import './Navbar.css';
-
+import React from "react";
+import { Container } from "react-bootstrap";
+import "./Navbar.css";
 function Footer() {
   return (
     <footer className="footer-custom text-white py-4">

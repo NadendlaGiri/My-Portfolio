@@ -1,10 +1,10 @@
-import React from 'react';
-import { Container, Button, Image } from 'react-bootstrap';
-import './Resume.css';
+import React from "react";
+import { Container, Button, Image } from "react-bootstrap";
+import "./Resume.css";
 
 const Resume = () => {
   const openResume = () => {
-    window.open('/Nadendla-Giri-Resume.pdf', '_blank');
+    window.open(`${process.env.PUBLIC_URL}/Giri-Nadendla.pdf`, "_blank");
   };
 
   return (
@@ -14,13 +14,14 @@ const Resume = () => {
 
         {/* Centered Image */}
         <Image
-          src="/illustration.svg"
+          src={`${process.env.PUBLIC_URL}/illustration.svg`}
           alt="Resume Illustration"
           className="resume-image mb-4"
         />
-
         <p className="mb-3">Click below to view or download my resume.</p>
-        <Button variant="primary" onClick={openResume}>View Resume</Button>
+        <Button variant="primary" onClick={openResume}>
+          View Resume
+        </Button>
       </Container>
     </section>
   );

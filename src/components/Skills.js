@@ -1,7 +1,15 @@
-import React from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaJava, FaGit, FaDatabase } from 'react-icons/fa';
-import './Skills.css';
+import React from "react";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaJava,
+  FaGit,
+  FaDatabase,
+} from "react-icons/fa";
+import "./Skills.css";
 
 const Skills = () => {
   return (
